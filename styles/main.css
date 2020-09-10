@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+
+.header {
+    color: seashell;
+    width: 100%;
+    overflow: hidden;
+    background: #1ABC9C;
+}
+
+.header .logo {
+    font-family: 'Indie Flower', cursive;;
+    font-size: 32px;
+    float: left;
+}
+
+.header .navigation {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 22px;
+    float: right;
+}
+
+.header .navigation li {
+    float: right;
+    margin-left: 50px;
+    font-size: 18px;
+    display: block;
+    margin-top: 25px;
+}
+
+.header .navigation li a {
+    color: seashell;
+    text-decoration: none;
+}
+
+.header .navigation li a:hover {
+    color: black;
+}
+
+.container {
+    width: 60%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.parent {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+
+.icon-elon {
+    width: 250px;
+    height: 250px;
+    background-image: url('../images/elon.jpg');
+    background-size: cover;
+    border-radius: 10%;
+    margin: auto;
+    margin-top: 0px;
+}
+
+.advice1 {
+    width: 95%;
+    overflow: hidden;
+    margin: auto;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.advice2 {
+    width: 95%;
+    overflow: hidden;
+    margin: auto;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 50px;
+    text-indent: 150px;
+}
+
+.memesuksesorangdalam {
+    width: 200px;
+    height: 200px;
+    background-image: url('../images/memesuksesorangdalam.jpg');
+    background-size: cover;
+    border-radius: 10%;
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+.footer {
+    text-align: center;
+}
